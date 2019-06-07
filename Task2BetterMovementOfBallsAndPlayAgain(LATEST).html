@@ -347,8 +347,10 @@ balls[i].r=0;
 text[i].x=0;
 text[i].y=0;
 text[i].text="";}}}
-if(score.text<=30000){
-r+=score.text*0.001+5;}
+if(score.text<=10000){
+r+=score.text*0.0001+10;}
+else{
+r+=12;}
 if(r>292){
 r=20;
 bullet1.x=buster.x+15;
